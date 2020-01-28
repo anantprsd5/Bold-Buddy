@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "691248125977",
+    "firebase_url": "https://boldbuddy-6e48c.firebaseio.com",
+    "project_id": "boldbuddy-6e48c",
+    "storage_bucket": "boldbuddy-6e48c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691248125977:android:dbc8b79470327c42c3f288",
+        "android_client_info": {
+          "package_name": "com.social.boldbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691248125977-tgvii3b2qggonl1hhuk701636aoc6np1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.social.boldbuddy",
+            "certificate_hash": "34d39b2de5557ff99b1f73990e103f7f951b664a"
+          }
+        },
+        {
+          "client_id": "691248125977-tab8lavmp7s3gd6spoljb9l6dnj889si.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwR1kHt-GiJxZjzouBZ1W1CLqyXrGBz1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691248125977-tab8lavmp7s3gd6spoljb9l6dnj889si.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
