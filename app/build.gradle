@@ -26,15 +26,6 @@ android {
         signingConfig signingConfigs.debug
     }
 
-    signingConfigs{
-        key{
-            keyAlias 'key1'
-            keyPassword 'boranadev'
-            storeFile file('/home/anantprsd5/Downloads/Tictic/keystore.jks')
-            storePassword 'boranadev'
-        }
-    }
-
     compileOptions {
         targetCompatibility JavaVersion.VERSION_1_8
     }
@@ -50,7 +41,6 @@ android {
 
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.key
         }
     }
 }
