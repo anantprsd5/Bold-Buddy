@@ -20,10 +20,19 @@ android {
         applicationId "com.social.boldbuddy"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 13
-        versionName "2.2"
+        versionCode 15
+        versionName "2.4"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.debug
+    }
+
+    signingConfigs{
+        key{
+            keyAlias 'key1'
+            keyPassword 'boranadev'
+            storeFile file('/home/anantprsd5/Downloads/Tictic/keystore.jks')
+            storePassword 'boranadev'
+        }
     }
 
     compileOptions {
@@ -41,6 +50,7 @@ android {
 
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.key
         }
     }
 }
